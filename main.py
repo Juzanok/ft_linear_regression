@@ -13,9 +13,9 @@ except FileNotFoundError :
 	theta0 = 0
 	theta1 = 0
 except ValueError as error :
-    sys.exit(f"Error: {error}")
+	sys.exit(f"Error: {error}")
 except Exception:
-    sys.exit("Error: bad theta.csv file")
+	sys.exit("Error: bad theta.csv file")
 
 check = False
 while check == False :
